@@ -35,7 +35,7 @@
       <file leaf-file-name="style.sass" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sass/style.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="0" selection-start="467" selection-end="467" vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="595">
+            <state line="29" column="0" selection-start="471" selection-end="471" vertical-scroll-proportion="-9.666667" vertical-offset="0" max-vertical-offset="595">
               <folding />
             </state>
           </provider>
@@ -44,7 +44,7 @@
       <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="103" column="3" selection-start="1981" selection-end="3048" vertical-scroll-proportion="0.0" vertical-offset="1019" max-vertical-offset="1904">
+            <state line="72" column="0" selection-start="2194" selection-end="2323" vertical-scroll-proportion="0.0" vertical-offset="1019" max-vertical-offset="1904">
               <folding />
             </state>
           </provider>
@@ -53,7 +53,7 @@
       <file leaf-file-name="tilesController.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/tilesController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="73" column="0" selection-start="2378" selection-end="2378" vertical-scroll-proportion="1.40226" vertical-offset="0" max-vertical-offset="1394">
+            <state line="84" column="31" selection-start="3021" selection-end="3021" vertical-scroll-proportion="0.53898305" vertical-offset="951" max-vertical-offset="2108">
               <folding />
             </state>
           </provider>
@@ -80,9 +80,9 @@
       <list>
         <option value="$PROJECT_DIR$/config.rb" />
         <option value="$PROJECT_DIR$/js/jquery-1.11.0.min.js" />
-        <option value="$PROJECT_DIR$/sass/style.sass" />
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/sass/style.sass" />
         <option value="$PROJECT_DIR$/js/tilesController.js" />
       </list>
     </option>
@@ -226,7 +226,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32858709" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32821077" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -328,13 +328,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/style.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="467" selection-end="467" vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="595">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="38" selection-start="226" selection-end="226" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="697">
@@ -342,16 +335,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sass/style.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="0" selection-start="471" selection-end="471" vertical-scroll-proportion="-9.666667" vertical-offset="0" max-vertical-offset="595">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="103" column="3" selection-start="1981" selection-end="3048" vertical-scroll-proportion="0.0" vertical-offset="1019" max-vertical-offset="1904">
+        <state line="72" column="0" selection-start="2194" selection-end="2323" vertical-scroll-proportion="0.0" vertical-offset="1019" max-vertical-offset="1904">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/tilesController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="0" selection-start="2378" selection-end="2378" vertical-scroll-proportion="1.40226" vertical-offset="0" max-vertical-offset="1394">
+        <state line="84" column="31" selection-start="3021" selection-end="3021" vertical-scroll-proportion="0.53898305" vertical-offset="951" max-vertical-offset="2108">
           <folding />
         </state>
       </provider>
