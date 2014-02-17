@@ -1,0 +1,29 @@
+@import compass/css3
+
+.tiles-container
+  position: relative
+  width: 1000px
+  margin: 0 auto
+
+  .tile
+    width: 200px
+    height: 150px
+    position: absolute
+    +transition-property(top,left,opacity)
+    +transition-duration(1s)
+
+    &.shown
+      opacity: 1
+
+    &.hidden
+      opacity: 0
+
+    &[rel="first"]
+      background: red
+    &[rel="second"]
+      background: yellow
+    &[rel="third"]
+      background: blue
+    &[rel="fourth"]
+      background: green
+
