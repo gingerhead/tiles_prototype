@@ -23,19 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="config.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="443" selection-end="443" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="510">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="style.sass" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sass/style.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="0" selection-start="471" selection-end="471" vertical-scroll-proportion="-9.666667" vertical-offset="0" max-vertical-offset="595">
+            <state line="21" column="20" selection-start="364" selection-end="365" vertical-scroll-proportion="-4.0" vertical-offset="153" max-vertical-offset="867">
               <folding />
             </state>
           </provider>
@@ -44,7 +35,7 @@
       <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="72" column="0" selection-start="2194" selection-end="2323" vertical-scroll-proportion="0.0" vertical-offset="1019" max-vertical-offset="1904">
+            <state line="72" column="0" selection-start="2194" selection-end="2323" vertical-scroll-proportion="0.0" vertical-offset="609" max-vertical-offset="1904">
               <folding />
             </state>
           </provider>
@@ -53,7 +44,7 @@
       <file leaf-file-name="tilesController.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/tilesController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="84" column="31" selection-start="3021" selection-end="3021" vertical-scroll-proportion="0.53898305" vertical-offset="951" max-vertical-offset="2108">
+            <state line="27" column="42" selection-start="892" selection-end="892" vertical-scroll-proportion="0.78327644" vertical-offset="0" max-vertical-offset="2584">
               <folding />
             </state>
           </provider>
@@ -62,7 +53,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="38" selection-start="226" selection-end="226" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="697">
+            <state line="13" column="27" selection-start="595" selection-end="595" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="714">
               <folding />
             </state>
           </provider>
@@ -81,8 +72,9 @@
         <option value="$PROJECT_DIR$/config.rb" />
         <option value="$PROJECT_DIR$/js/jquery-1.11.0.min.js" />
         <option value="$PROJECT_DIR$/js/main.js" />
-        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/test.html" />
         <option value="$PROJECT_DIR$/sass/style.sass" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/tilesController.js" />
       </list>
     </option>
@@ -120,7 +112,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -183,10 +174,11 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../guardian.local" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="SearchEverywhereHistory" value="//" />
     <property name="FullScreen" value="false" />
@@ -195,6 +187,8 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="LayoutCode.rearrangeEntriesJavaScript" value="false" />
+    <property name="LayoutCode.rearrangeEntriesHTML" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -226,17 +220,18 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32821077" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32821077" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33599573" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3509052" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -256,6 +251,146 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/config.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="443" selection-end="443" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/style.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="28" selection-start="233" selection-end="233" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="612">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="72" column="0" selection-start="2194" selection-end="2323" vertical-scroll-proportion="0.0" vertical-offset="1017" max-vertical-offset="1904">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/tilesController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="85" column="21" selection-start="3024" selection-end="3024" vertical-scroll-proportion="0.0" vertical-offset="849" max-vertical-offset="2193">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="38" selection-start="226" selection-end="226" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="697">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="443" selection-end="443" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/style.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="28" selection-start="233" selection-end="233" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="612">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="72" column="0" selection-start="2194" selection-end="2323" vertical-scroll-proportion="0.0" vertical-offset="1017" max-vertical-offset="1904">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/tilesController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="6" selection-start="2638" selection-end="2638" vertical-scroll-proportion="0.0" vertical-offset="1051" max-vertical-offset="2142">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="38" selection-start="226" selection-end="226" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="697">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="443" selection-end="443" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/style.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="0" selection-start="471" selection-end="471" vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="595">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="72" column="0" selection-start="2194" selection-end="2323" vertical-scroll-proportion="0.0" vertical-offset="1019" max-vertical-offset="1904">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/tilesController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="84" column="31" selection-start="3021" selection-end="3021" vertical-scroll-proportion="0.0" vertical-offset="951" max-vertical-offset="2108">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="38" selection-start="226" selection-end="226" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="697">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="443" selection-end="443" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/style.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="0" selection-start="471" selection-end="471" vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="595">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="72" column="0" selection-start="2194" selection-end="2323" vertical-scroll-proportion="0.0" vertical-offset="1019" max-vertical-offset="1904">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/tilesController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="84" column="31" selection-start="3021" selection-end="3021" vertical-scroll-proportion="0.0" vertical-offset="951" max-vertical-offset="2108">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="38" selection-start="226" selection-end="226" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="697">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="0" selection-start="443" selection-end="443" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="510">
@@ -323,35 +458,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="443" selection-end="443" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="510">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="38" selection-start="226" selection-end="226" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="697">
+        <state line="13" column="0" selection-start="443" selection-end="443" vertical-scroll-proportion="0.39253998" vertical-offset="0" max-vertical-offset="563">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sass/style.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="471" selection-end="471" vertical-scroll-proportion="-9.666667" vertical-offset="0" max-vertical-offset="595">
+        <state line="21" column="20" selection-start="364" selection-end="365" vertical-scroll-proportion="-4.0" vertical-offset="153" max-vertical-offset="867">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="0" selection-start="2194" selection-end="2323" vertical-scroll-proportion="0.0" vertical-offset="1019" max-vertical-offset="1904">
+        <state line="72" column="0" selection-start="2194" selection-end="2323" vertical-scroll-proportion="0.0" vertical-offset="1017" max-vertical-offset="1904">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="27" selection-start="595" selection-end="595" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="714">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/tilesController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="31" selection-start="3021" selection-end="3021" vertical-scroll-proportion="0.53898305" vertical-offset="951" max-vertical-offset="2108">
+        <state line="27" column="42" selection-start="892" selection-end="892" vertical-scroll-proportion="0.78327644" vertical-offset="0" max-vertical-offset="2584">
           <folding />
         </state>
       </provider>

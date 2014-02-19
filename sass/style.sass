@@ -9,21 +9,37 @@
     width: 200px
     height: 150px
     position: absolute
-    //+transition-property(top,left,opacity)
-    //+transition-duration(1s)
+    margin-top: 0
+    +box-shadow(none)
+    +transition(opacity 0.5s, box-shadow 0.2s, margin 0.2s)
 
     &.shown
       opacity: 1
 
     &.hidden
       opacity: 0
+      margin-top: 20px
+      margin-left: -10px
 
-    &[rel="first"]
+    &[filter_1="filter_1"]
       background: red
-    &[rel="second"]
+    &[filter_2="filter_2"]
       background: yellow
-    &[rel="third"]
+    &[filter_3="filter_3"]
       background: blue
-    &[rel="fourth"]
+    &[filter_4="filter_4"]
       background: green
+
+    &.is_animating_forwards
+      margin-top: -10px
+      margin-left: 20px
+      +box-shadow(0px 5px 15px 3px rgba(0,0,0,0.5))
+
+    &.is_animating_backwards
+      margin-top: 20px
+      margin-left: -10px
+      opacity: 0
+      +box-shadow(inset 0px 5px 15px rgba(0,0,0,0.5))
+
+
 
