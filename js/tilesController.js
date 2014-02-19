@@ -25,14 +25,32 @@
       });
 
       $('.turning' ).click( function() {
-        var rel = $(this ).attr('filter');
+        if ($(this ).hasClass('pressed')) {
+          $(this ).removeClass('pressed');
+        }
+        else {
+          $(this ).addClass('pressed');
+        }
+
+        if ($('.turning.pressed' ).length == 0) {
+          self.$tiles.finish();
+          self.$tiles.removeClass('hidden' ).addClass('shown');
+          self.updateShown();
+        }
+        else {
+          self.$tiles.removeClass('shown').addClass('hidden');
+          $('.turning.pressed' ).each( function() {
+            var rel = $(this ).attr('filter');
+            $('.tile['+rel+'='+rel+']').removeClass('hidden' ).addClass('shown');
+            self.updateShown();
+          });
+        }
+/*        var rel = $(this ).attr('filter');
           self.$tiles.finish();
           self.$tiles.removeClass('shown').addClass('hidden');
-          setTimeout( function() {
-            self.updateHidden();
-          },500)
+          //self.updateHidden();
           $('.tile['+rel+'='+rel+']').removeClass('hidden' ).addClass('shown');
-          self.updateShown();
+          self.updateShown();*/
       });
 
       $('.show-all' ).click( function() {
@@ -56,6 +74,10 @@
     updateShown: function() {
       var self = this;
       $('.tile.shown').each( function(i) {
+        var index = $(this).index();
+        var x0 = ( index % self.tiles_in_row ) * self.col_width;
+        var y0 = Math.floor(index / self.tiles_in_row)*self.col_height;
+        $(this ).css({top: y0, left: x0});
         var offset_h = ( i % self.tiles_in_row ) * self.col_width;
         var offset_v = Math.floor( i / self.tiles_in_row) * self.col_height;
         self.animateObject(offset_h, offset_v, $(this ),'is_animating_forwards');
