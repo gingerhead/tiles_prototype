@@ -32,25 +32,29 @@
           $(this ).addClass('pressed');
         }
 
+        var $elem = $(this);
+
         if ($('.turning.pressed' ).length == 0) {
           self.$tiles.finish();
           self.$tiles.removeClass('hidden' ).addClass('shown');
           self.updateShown();
         }
         else {
+          self.$tiles.finish()
           self.$tiles.removeClass('shown').addClass('hidden');
           $('.turning.pressed' ).each( function() {
-            var rel = $(this ).attr('filter');
-            $('.tile['+rel+'='+rel+']').removeClass('hidden' ).addClass('shown');
-            self.updateShown();
+            if ($(this) != $elem) {
+              self.$tiles.finish()
+              var rel = $(this ).attr('filter');
+              var index = $(this).index();
+              var x0 = ( index % self.tiles_in_row ) * self.col_width;
+              var y0 = Math.floor(index / self.tiles_in_row)*self.col_height;
+              $(this ).css({top: y0, left: x0});
+              $('.tile['+rel+'='+rel+']').removeClass('hidden' ).addClass('shown');
+              self.updateShown();
+            }
           });
         }
-/*        var rel = $(this ).attr('filter');
-          self.$tiles.finish();
-          self.$tiles.removeClass('shown').addClass('hidden');
-          //self.updateHidden();
-          $('.tile['+rel+'='+rel+']').removeClass('hidden' ).addClass('shown');
-          self.updateShown();*/
       });
 
       $('.show-all' ).click( function() {
@@ -74,10 +78,6 @@
     updateShown: function() {
       var self = this;
       $('.tile.shown').each( function(i) {
-        var index = $(this).index();
-        var x0 = ( index % self.tiles_in_row ) * self.col_width;
-        var y0 = Math.floor(index / self.tiles_in_row)*self.col_height;
-        $(this ).css({top: y0, left: x0});
         var offset_h = ( i % self.tiles_in_row ) * self.col_width;
         var offset_v = Math.floor( i / self.tiles_in_row) * self.col_height;
         self.animateObject(offset_h, offset_v, $(this ),'is_animating_forwards');
@@ -103,31 +103,34 @@
       if ((x1-x0) > 0) koef_x = '+';
       if ((y1-y0) > 0) koef_y = '+';
       var is_animating = true;
-      $elem.addClass(class_name).delay(200);
-      this.moveHorizontal($elem,x1,y1,koef_x,koef_y, is_animating,class_name);
+      var iter = Math.ceil(Math.abs(x1-x0)/this.col_width) + Math.ceil(Math.abs(y1-y0)/this.col_height);
+      var total_duration = 400;
+      var duration_unit = total_duration / iter;
+      $elem.addClass(class_name).delay(100);
+      this.moveHorizontal($elem,x1,y1,koef_x,koef_y, is_animating,class_name, duration_unit);
 /*      setTimeout(function() {
         self.moveHorizontal($elem,x1,y1,koef_x,koef_y, is_animating);
       },500);*/
     },
 
-    moveHorizontal: function($elem,x1,y1,koef_x,koef_y, is_animating,class_name) {
+    moveHorizontal: function($elem,x1,y1,koef_x,koef_y, is_animating,class_name, duration_unit) {
       var self = this;
       var current_left = parseInt($elem.css('left' ), 10);
       var current_top = parseInt($elem.css('top' ), 10);
       if ( Math.abs(current_left - x1) > 0 ) {
         $elem.animate( { left: koef_x+"="+self.col_width+"px"  }, {
-          duration: 200,
+          duration: duration_unit,
           step: function(now) {
             current_left = now;
           },
           complete: function() {
-            self.moveVertical($elem,x1,y1,koef_x,koef_y, is_animating,class_name);
+            self.moveVertical($elem,x1,y1,koef_x,koef_y, is_animating,class_name,duration_unit);
           },
           specialEasing: 'linear'
         });
       }
       else if (Math.abs(current_top - y1) > 0) {
-        this.moveVertical($elem,x1,y1,koef_x,koef_y, is_animating,class_name);
+        this.moveVertical($elem,x1,y1,koef_x,koef_y, is_animating,class_name, duration_unit);
       }
       else if ((Math.abs(current_left - x1) <= 0) && (Math.abs(current_top - y1) <= 0)){
         while (is_animating) {
@@ -137,24 +140,24 @@
       }
     },
 
-    moveVertical: function($elem,x1,y1,koef_x,koef_y, is_animating,class_name) {
+    moveVertical: function($elem,x1,y1,koef_x,koef_y, is_animating,class_name, duration_unit) {
       var self = this;
       var current_top = parseInt($elem.css('top' ), 10);
       var current_left = parseInt($elem.css('left' ), 10);
       if ( Math.abs(current_top - y1) > 0 ) {
         $elem.animate( { top: koef_y+"="+self.col_height+"px" }, {
-          duration: 200,
+          duration: duration_unit,
           step: function(now) {
             current_top = now;
           },
           complete: function() {
-            self.moveHorizontal($elem,x1,y1,koef_x,koef_y, is_animating,class_name)
+            self.moveHorizontal($elem,x1,y1,koef_x,koef_y, is_animating,class_name,duration_unit)
           },
           specialEasing: 'linear'
         });
       }
       else if (Math.abs(current_left - x1) > 0) {
-        this.moveHorizontal($elem,x1,y1,koef_x,koef_y, is_animating,class_name);
+        this.moveHorizontal($elem,x1,y1,koef_x,koef_y, is_animating,class_name,duration_unit);
       }
       else if (((Math.abs(current_left - x1) <= 0) && (Math.abs(current_top - y1) <= 0))) {
         while (is_animating) {
